@@ -49,7 +49,7 @@ Boot the Linode into recovery mode with the disks assigned as above.
 
 Connect to the Linode with Lish either via SSH or the browser console. To download and run the script:
 
-    curl -o- https://gist.githubusercontent.com/snowydane/8f8cfce9334f2b36cddb6065ceed6d7f/raw/16d3db4013a23829758f6230f2ad9cec60857b9f/alpine-boostrap.sh | bash
+    curl -o- https://raw.githubusercontent.com/snowydane/alpine-linux-bootstrap/master/alpine-bootstrap.sh | bash
 
 Once that finishes, shut the Linode down from recovery mode and, staying in the Lish console, run:
   
